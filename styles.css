@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #51d79d,
+    rgb(149, 244, 101),
+    #3bb95c,
+    rgb(196, 235, 145)
+  );
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: linear-gradient(
+    135deg,
+    rgb(168, 212, 239),
+    rgb(161, 215, 199)
+  );
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: linear-gradient(135deg, rgb(154, 116, 116), rgb(201, 238, 57));
+  text-align: center;
+  font-size: 2em;
+}
+
+.question {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f4f1d5;
+}
+
+.options {
+  margin-bottom: 20px;
+  color: #5a571e;
+}
+
+.explanation {
+  margin-top: 10px;
+  color: #fcf7f7;
+  font-style: italic;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e3a8a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #153170;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #374151;
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+}
